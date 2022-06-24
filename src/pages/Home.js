@@ -1,9 +1,23 @@
-import React from 'react'
+import React from "react";
 
 function Home() {
   return (
-    <h1>Home</h1>
-  )
+    <div>
+      <div
+        className="introduction flex-with-center"
+        style={{ backgroundImage: `url('./intro-bg.svg')` }}
+      >
+        <div>
+          <h1>MAFTUN HASHIMLI</h1>
+
+          <div className="intro-content d-flex justify-content-between">
+            <p>Software Developer</p>
+            <button className="primary-button">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Home
+export default Home;
