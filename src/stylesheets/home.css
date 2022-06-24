@@ -6,3 +6,9 @@
 .intro-content div h1{
     font-size: 100px;
 }
+.primary-button{
+    background-color: white;
+    height: 31px;
+    border-radius: 20px;
+    border: none;
+}
