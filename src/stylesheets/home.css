@@ -2,11 +2,14 @@
     height:100vh;
     width:100%;
     color:white;
+    background-position: 100% 100%;
+    background-size: cover;
 }
 .introduction p{
     color: white;
 }
 .introduction div h1{
+    font-weight: bold;
     color: rgba(255, 255, 255, 0.626);
     font-size: 100px;
 }
@@ -21,6 +24,6 @@
 .primary-button{
     background-color: white;
     height: 31px;
-    border-radius: 20px;
+    border-radius: 25px;
     border: none;
 }
