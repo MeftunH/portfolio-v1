@@ -24,10 +24,11 @@
   position: fixed;
   top: 0;
   right: 0;
-  background-color: rgba(13, 255, 0, 0.318);
+  background-color: rgba(0, 55, 255, 0.768);
   height: 65vh;
   width: 50%;
   overflow: hidden;
+  border-bottom-left-radius: 50%;
 }
 .show-header li {
   color: white;
