@@ -16,7 +16,7 @@ function Header() {
         onClick={() => setShowHeader(!showHeader)}
         ></RiMenu3Fill>
       )}
-      <ul className={`${showHeader ? 'show-header' : 'hide-header'}`}>
+      <ul className={`${showHeader ? 'show-header' : 'hide-header'} n-box`}>
       <li><Link>Home</Link></li>
       <li><Link>Projects</Link></li>
       <li><Link>Courses</Link></li>
