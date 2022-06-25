@@ -3,6 +3,8 @@ import { RiMenu3Fill,RiCloseFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 function Header() {
   const [showHeader, setShowHeader] = useState(true);
+  const path = window.location.pathname;
+
   return (
     <div className="header">
       {showHeader ? (
@@ -17,10 +19,10 @@ function Header() {
         ></RiMenu3Fill>
       )}
       <ul className={`${showHeader ? 'show-header' : 'hide-header'} n-box`}>
-      <li><Link>Home</Link></li>
-      <li><Link>Projects</Link></li>
-      <li><Link>Courses</Link></li>
-      <li><Link>Contact</Link></li>
+      <li className={`${path==='/' && 'active'}`}><Link to='/'>Home</Link></li>
+      <li className={`${path==='/projects' && 'active'}`}><Link to='/projects'>Projects</Link></li>
+      <li className={`${path==='/courses' && 'active'}`}><Link to='/courses'>Courses</Link></li>
+      <li className={`${path==='/contact' && 'active'}`}><Link to='/contact'>Contact</Link></li>
       </ul>
     </div>
   );
