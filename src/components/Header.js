@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { RiMenu3Fill,RiCloseFill } from "react-icons/ri";
-
+import { Link } from "react-router-dom";
 function Header() {
   const [showHeader, setShowHeader] = useState(true);
   return (
@@ -16,6 +16,12 @@ function Header() {
         onClick={() => setShowHeader(!showHeader)}
         ></RiMenu3Fill>
       )}
+      <ul className={`${showHeader ? 'show-header' : 'hide-header'}`}>
+      <li><Link>Home</Link></li>
+      <li><Link>Projects</Link></li>
+      <li><Link>Courses</Link></li>
+      <li><Link>Contact</Link></li>
+      </ul>
     </div>
   );
 }
