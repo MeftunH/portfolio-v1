@@ -21,6 +21,7 @@ justify-content: center;
  background-color: rgba(13, 255, 0, 0.318);
  height: 65vh;
  width: 50%;
+ overflow: hidden;
 }
 .show-header li{
  color: white;
