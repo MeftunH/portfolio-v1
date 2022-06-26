@@ -22,8 +22,8 @@ function Carousel() {
         <span style={{'--i' : 12}}> <SiCplusplus color="blue"/> </span>
         <span style={{'--i' : 13}}> <SiHtml5 color="orange"/> </span>
         <span style={{'--i' : 14}}> <SiCss3 color="blue"/> </span>
-        <span style={{'--i' : 15}}> <SiTailwindcss color="blue"/> </span>
-        <span style={{'--i' : 16}}> <SiBootstrap color="blue"/> </span>
+        <span style={{'--i' : 15}}> <SiTailwindcss color="cyan"/> </span>
+        <span style={{'--i' : 16}}> <SiBootstrap color="purple"/> </span>
 
         </div>
       </div>
