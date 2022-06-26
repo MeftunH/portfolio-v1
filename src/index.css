@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: #EBECF0;
 }
 
 code {
@@ -31,4 +32,11 @@ code {
 .n-box {
   background: linear-gradient(145deg, #041e7d, #003cff71);
   box-shadow: 5px 5px 10px #001666, -5px -5px 10px #0059ff77;
+}
+
+.n-box-interest-intro {
+  border-radius: 50px;
+background: #EBFCF0;
+box-shadow:  -5px -5px 10px #c3d1c7,
+             5px 5px 10px #ffffff;
 }
