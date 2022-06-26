@@ -183,6 +183,103 @@ function Home() {
           </div>
         </div>
       </div>
+
+      <div className="container mt-5 n-box-interest-intro py-5">
+        <div className="text-center">
+        <h3 className="font-bold text-center">My Development Stack</h3>
+        <img src="./assets/developer.png" alt="" height='200' width='200' className="text-center"></img>
+        </div>
+        <div className="row">
+          <div className="col-md-4">
+         <div className="font-bold">
+          <h3 className="font-bold"> Front End</h3>
+          <hr></hr>
+          <p>HTML/CSS</p>
+          <p>Javascript</p>
+          <p>React</p>
+          <p>Redux</p>
+          <p>Vue</p>
+          <p>Scss</p>
+         </div>
+          </div>
+
+          <div className="col-md-4">
+         <div className="font-bold text-center">
+          <h3 className="font-bold"> UI/UX </h3>
+          <hr></hr>
+          <p>Material UI</p>
+          <p>Bootstrap</p>
+          <p>AntDesign</p>
+          <p>Semantic UI</p>
+          <p>Tailwind CSS</p>
+          <p>Canvas</p>
+          <p>Figma</p>
+         </div>
+          </div>
+
+          <div className="col-md-4">
+         <div className="font-bold text-center">
+          <h3 className="font-bold"> Backend/DB </h3>
+          <hr></hr>
+          <p>Java</p>
+          <p>Node JS</p>
+          <p>Php</p>
+          <p>C#</p>
+          <p>Spring</p>
+          <p>Spring Boot</p>
+          <p>Express</p>
+          <p>Laravel</p>
+          <p>MSSQL</p>
+          <p>My Sql</p>
+          <p>Postgres SQL</p>
+          <p>Firebase</p>
+          <p>MongoDB</p>
+         </div>
+          </div>
+
+          <div className="col-md-4">
+         <div className="font-bold text-right">
+          <h3 className="font-bold"> Mobile </h3>
+          <hr></hr>
+          <p>React Native</p>
+          <p>Kotlin</p>
+          <p>Jetpack Compose</p>
+         </div>
+         </div>
+
+
+          <div className="col-md-4">
+         <div className="font-bold text-right">
+          <h3 className="font-bold"> Concepts </h3>
+          <hr></hr>
+          <p>Clean Code</p>
+          <p>Unit and Integration Testing (Junit/Mockito/Jest/PhpUnit)</p>
+          <p>Algorithms</p>
+          <p>Data Structures</p>
+          <p>Code Optimization</p>
+          <p>Design Patterns</p>
+          <p>DRY</p>
+          <p>KISS</p>
+         </div>
+         </div>
+
+         <div className="col-md-4">
+         <div className="font-bold text-right">
+          <h3 className="font-bold"> In Progress </h3>
+          <hr></hr>
+          <p>Microservice Architecture</p>
+          <p>Spring Cloud</p>
+          <p>Spring Batch</p>
+          <p>Spring Web-Flow</p>
+          <p>Kafka</p>
+          <p>Docker</p>
+          <p>Kubernetes</p>
+         </div>
+         </div>
+
+
+        </div>
+      </div>
     </div>
   );
 }
