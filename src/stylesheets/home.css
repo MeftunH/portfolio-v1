@@ -43,6 +43,23 @@
     box-shadow: none;
 }
 
+.who-am-i{
+    height:100vh;
+    background-size:100% 100%;
+    color: white;
+    transition: all 0.5s;
+    overflow: hidden !important;
+}
+
+/* .who-am-i:hover{
+  transform: scale(1.05);
+} */
+
+pre{
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
+}
+
 @media(max-width:750px){
     .introduction div h1{
         font-weight: bold;
@@ -56,5 +73,15 @@
         border: none;
         width: auto;
         padding: 5px 15px;
+    }
+    .who-am-i{
+        height:100vh;
+        background-size:250% 130%;
+        color: white;
+        background-position: center;
+    }
+    pre{
+        font-size: 18px;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
     }
 }

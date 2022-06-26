@@ -281,6 +281,22 @@ function Home() {
 
         </div>
       </div>
+      <div>
+        <h3 className="font-bold text-center py-3">Who Am I</h3>
+      <div className="who-am-i flex-with-center" style={{backgroundImage:`url('/assets/who-am-i.svg')`}}>
+      <div>
+        <h3>I'm</h3>
+        <hr></hr>
+        <p><pre>{JSON.stringify({
+          "name": "Maftun Hashimli",
+          "nationality": "Azerbaijani",
+          "living in":"Turkey",
+          "birthDate": "29-11-2001",
+          "gender":"Male",
+        },null,2)}</pre></p>
+      </div>
+      </div>
+      </div>
     </div>
   );
 }
