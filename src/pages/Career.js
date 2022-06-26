@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../components/Header'
 
-function Projects() {
+function Career() {
   return (
     <div>
     <Header></Header>
-    <h1>Projects</h1>
+    <h1>Career</h1>
     </div>
   )
 }
 
-export default Projects
+export default Career
