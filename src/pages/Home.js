@@ -184,9 +184,10 @@ function Home() {
         </div>
       </div>
 
-      <div className="container mt-5 n-box-interest-intro py-5">
+      <div className="devstack container my-5 n-box-interest-intro py-5">
         <div className="text-center">
         <h3 className="font-bold text-center">My Development Stack</h3>
+        <hr></hr>
         <img src="./assets/developer.png" alt="" height='200' width='200' className="text-center"></img>
         </div>
         <div className="row">
