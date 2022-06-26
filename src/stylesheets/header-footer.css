@@ -2,7 +2,7 @@
   color: aqua;
   font-size: 70px;
   margin: 20px;
-  z-index: 2;
+  z-index: 3;
   cursor: pointer;
 }
 
@@ -41,6 +41,7 @@ body,html{
   overflow: hidden;
   border-bottom-left-radius: 50%;
   transition: all 0.5s;
+  z-index: 2;
 }
 ul li {
   color: white;
@@ -83,6 +84,7 @@ ul a {
         border-left:5px solid rgba(255, 255, 255, 0.445);
         overflow: hidden;
         transition: width 0.5s;
+        z-index: 2;
       }
       .hide-header {
         display: flex;
