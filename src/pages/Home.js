@@ -10,7 +10,7 @@ function Home() {
         style={{ backgroundImage: `url('./intro-bg.svg')` }}
       >
         <div>
-          <h1>MAFTUN HASHIMLI</h1>
+          <h1 data-aos="fade-up">MAFTUN HASHIMLI</h1>
 
           <div className="intro-content d-flex justify-content-between">
             <p>Software Engineer</p>
@@ -31,7 +31,7 @@ function Home() {
       <div className="container">
         <div className="row justify-content-start">
           <div className="col-md-4">
-            <div className="n-box-interest-intro p-5 font-bold">
+            <div className="n-box-interest-intro p-5 font-bold" data-aos="fade-right">
               <h1>Topics that interest me</h1>
               <br></br>
               <p>Data Structures And Algorithms</p>
@@ -47,6 +47,7 @@ function Home() {
                 alt="ds icon"
                 height="200"
                 className="w-100"
+                data-aos="fade-up"
               />
             </div>
           </div>
@@ -54,7 +55,7 @@ function Home() {
 
         <div className="row pt-5 justify-content-end">
           <div className="col-md-4">
-            <div className="n-box-interest-intro px-3 py-4 font-bold">
+            <div className="n-box-interest-intro px-3 py-4 font-bold" data-aos="fade-left">
               <p>
                 A data structure is a specialized format for organizing,
                 processing, retrieving and storing data. There are several basic
@@ -71,7 +72,7 @@ function Home() {
       <div className="container">
         <div className="row justify-content-start">
           <div className="col-md-4">
-            <div className="n-box-interest-intro p-5 font-bold">
+            <div className="n-box-interest-intro p-5 font-bold" data-aos="fade-right">
               <h1>Topics that interest me</h1>
               <br></br>
               <p className="interest-concept-p">Clean code concepts</p>
@@ -87,6 +88,7 @@ function Home() {
                 alt="ds icon"
                 height="200"
                 className="w-100"
+                data-aos="fade-up"
               />
             </div>
           </div>
@@ -94,7 +96,7 @@ function Home() {
 
         <div className="row pt-5 justify-content-end">
           <div className="col-md-4">
-            <div className="n-box-interest-intro px-3 py-4 font-bold">
+            <div className="n-box-interest-intro px-3 py-4 font-bold" data-aos="fade-left">
               <p>
                 {" "}
                 Clean code is code that is easy to understand and easy to
@@ -108,7 +110,7 @@ function Home() {
       <div className="container">
         <div className="row justify-content-start">
           <div className="col-md-4">
-            <div className="n-box-interest-intro p-5 font-bold">
+            <div className="n-box-interest-intro p-5 font-bold" data-aos="fade-right">
               <h1>Topics that interest me</h1>
               <br></br>
               <p>Design Patterns</p>
@@ -124,6 +126,7 @@ function Home() {
                 alt="ds icon"
                 height="200"
                 className="w-100"
+                data-aos="fade-up"
               />
             </div>
           </div>
@@ -131,7 +134,7 @@ function Home() {
 
         <div className="row pt-5 justify-content-end">
           <div className="col-md-4">
-            <div className="n-box-interest-intro px-3 py-4 font-bold">
+            <div className="n-box-interest-intro px-3 py-4 font-bold" data-aos="fade-left">
               <p>
                 In software engineering, a design pattern is a general
                 repeatable solution to a commonly occurring problem in software
@@ -148,7 +151,7 @@ function Home() {
       <div className="container">
         <div className="row justify-content-start">
           <div className="col-md-4">
-            <div className="n-box-interest-intro p-5 font-bold">
+            <div className="n-box-interest-intro p-5 font-bold" data-aos="fade-right">
               <h1>Topics that interest me</h1>
               <br></br>
               <p>Microservice architecture</p>
@@ -164,6 +167,7 @@ function Home() {
                 alt="ds icon"
                 height="200"
                 className="w-100"
+                data-aos="fade-up"
               />
             </div>
           </div>
@@ -171,7 +175,7 @@ function Home() {
 
         <div className="row pt-5 justify-content-end">
           <div className="col-md-4">
-            <div className="n-box-interest-intro px-3 py-4 font-bold">
+            <div className="n-box-interest-intro px-3 py-4 font-bold" data-aos="fade-left">
               <p>
                 {" "}
                 Micro Service is an architecture that allows the developers to

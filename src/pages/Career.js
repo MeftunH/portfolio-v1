@@ -8,7 +8,7 @@ function Career() {
       <Header />
       <div className="container career-intro">
         <div className="row flex-with-center mt-5">
-          <div className="col-md-6 n-box-interest-intro px-3">
+          <div className="col-md-6 n-box-interest-intro px-3" data-aos="fade-down">
             <div>
               <h1 className="font-bold">Career</h1>
               <p className="font-bold">

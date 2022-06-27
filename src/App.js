@@ -11,7 +11,13 @@ import './stylesheets/header-footer.css';
 import './stylesheets/carousel.css';
 import './stylesheets/career-courses.css';
 import './stylesheets/contact.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+AOS.init({
+  duration: 500,
+
+});
 function App() {
   return (
     <div className="App">
