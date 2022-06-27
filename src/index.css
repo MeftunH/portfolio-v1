@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Montserrat:ital,wght@1,200&family=Smooch&display=swap');
+
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+a{
+  color: black;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -22,12 +30,6 @@ code {
 
 a{
   text-decoration: none !important;
-  background-color: white;
-  height: 31px;
-  border-radius: 25px;
-  border: none;
-  width: 50%;
-  color: #001220;
 }
 
 .flex-with-center {

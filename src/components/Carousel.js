@@ -3,7 +3,7 @@ import { SiReact,SiSpringboot,SiSpring,SiSpringsecurity,SiLaravel,SiVuedotjs,SiJ
 function Carousel() {
   return (
     <div>
-      <div className="carousel-parent position-relative">
+      <div className="carousel-parent position-relative" id="carousel">
         <h1 className="position-absolute top-0 start-0 end-0 text-center mt-5">Technologies</h1>
 
         <div className="gallery">

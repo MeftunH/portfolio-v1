@@ -15,7 +15,9 @@ function Career() {
                 Good ideas are not adopted automatically.They must be driven
                 into practice with courageous patience
               </p>
-              <button className="primary-button">Get Started</button>
+              <div className="intro-content align-center">
+              <a className="primary-button" href="#jobs">Get Started</a>
+              </div>
             </div>
           </div>
           <div className="col-md-6 position-relative">
@@ -35,7 +37,7 @@ function Career() {
         </div>
       </div>
 
-      <div className="container job-history-list">
+      <div className="container job-history-list" id="jobs">
        <h3 className="font-bold">Job history</h3>
        <hr></hr>
         </div>
