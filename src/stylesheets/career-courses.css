@@ -8,10 +8,15 @@
    border: 1px solid rgba(0, 0, 0, 0.43);
    border-radius: 10px;
    margin-top: 50px;
+   animation: job-animation 10s linear infinite;
 }
 .job img{
     height: 300px;
     width: 100%;
+}
+
+.job-list{
+    overflow: hidden;
 }
 
 .job:hover > .job-content{
@@ -19,6 +24,9 @@
     transform: scale(1.05);
     cursor: pointer;
     overflow: hidden;
+}
+.job:hover{
+    animation-play-state: paused;
 }
 
 .job-content{
@@ -38,4 +46,22 @@
     border-radius: 10px;
     opacity: 0;
     transition: all 0.5s;
+}
+
+@keyframes job-animation {
+    0%{
+        transform: rotate(-5deg);
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(5deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-5deg);
+    }
 }
