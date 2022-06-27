@@ -9,6 +9,7 @@ import './stylesheets/home.css';
 import './stylesheets/header-footer.css';
 import './stylesheets/carousel.css';
 import './stylesheets/career-courses.css';
+import './stylesheets/contact.css';
 
 function App() {
   return (
