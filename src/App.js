@@ -5,6 +5,7 @@ import Career from './pages/Career';
 import Courses from './pages/Courses';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 import './stylesheets/home.css';
 import './stylesheets/header-footer.css';
 import './stylesheets/carousel.css';
@@ -20,6 +21,7 @@ function App() {
      <Route path='/courses' exact component={Courses}/>
      <Route path='/contact' exact component={Contact}/>
      </BrowserRouter>
+     <Footer/>
     </div>
   );
 }
