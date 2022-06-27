@@ -15,6 +15,34 @@
     width: 100%;
 }
 
+.courses-intro{
+    background-size: cover;
+    background-position: cover;
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.courses-intro-content{
+    width: 50%;
+    color: white;
+    border-left: 5px solid cyan;
+    padding-left: 20px;
+}
+.courses-intro-content h1{
+    font-size: 75px;
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:cyan;
+    border-bottom: 2px solid white;
+}
+
+.courses-intro-content div{
+    border-right: 2px solid white;
+}
+
 .job-list{
     overflow: hidden;
 }
