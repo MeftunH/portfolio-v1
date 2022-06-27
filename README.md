@@ -1,5 +1,5 @@
-#Personel Website Project developed by React.js
-#On live:
+# Personel Website Project developed by React.js
+# On live:
 ```
 https://maftunhashimli.netlify.app/
 ```
