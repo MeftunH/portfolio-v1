@@ -1,17 +1,17 @@
 import React from "react";
 import Header from "../components/Header";
 import {IoCodeSlash} from "react-icons/io5";
-
+import jobsData from './jobsData.js';
 function Career() {
   return (
     <div>
       <Header />
       <div className="container career-intro">
         <div className="row flex-with-center mt-5">
-          <div className="col-md-6 n-box-interest-intro">
+          <div className="col-md-6 n-box-interest-intro px-3">
             <div>
-              <h1 className="text-center">Career</h1>
-              <p>
+              <h1 className="font-bold">Career</h1>
+              <p className="font-bold">
                 Good ideas are not adopted automatically.They must be driven
                 into practice with courageous patience
               </p>
@@ -34,6 +34,22 @@ function Career() {
           </div>
         </div>
       </div>
+
+      <div className="container job-history-list">
+       <h3 className="font-bold">Job history</h3>
+       <hr></hr>
+        </div>
+        <div className="row">
+          {jobsData.map((job) => {
+            return (
+              <div className="col-md-4">
+               <div className="position-relative job">
+                <img src={job.logo} alt="" />
+                </div>
+              </div>
+            );
+          })}
+        </div>
     </div>
   );
 }
