@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
 import Header from "../components/Header";
 import emailjs from '@emailjs/browser'
+import {toast} from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
+
 
 function Contact() {
   const form = useRef();
@@ -11,10 +14,9 @@ function Contact() {
     emailjs.sendForm('service_80njg3u','template_t9sny2v',form.current,'n8nRqMclzmzBCkKU7')
     .then(
       (result)=>{
-      console.log(result.text);
-      console.log("message sent");
+      toast.success("Your message has been sent successfully")
     }, (error)=>{
-      console.log(error.text);
+      toast.error("Unfortunately, your message has not been sent")
     }
     );
   };

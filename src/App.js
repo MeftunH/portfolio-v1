@@ -13,6 +13,8 @@ import './stylesheets/career-courses.css';
 import './stylesheets/contact.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {ToastContainer} from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 
 AOS.init({
   duration: 500,
@@ -21,6 +23,7 @@ AOS.init({
 function App() {
   return (
     <div className="App">
+    <ToastContainer />
      <BrowserRouter>
      <Route path='/' exact component={Home}/>
      <Route path='/career' exact component={Career}/>
