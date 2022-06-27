@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import coursesList from "../data/coursesData";
 
 function Courses() {
   return (
@@ -30,6 +31,27 @@ function Courses() {
             </p>
           </div>
         </div>
+      </div>
+
+      <div className="container courses-list mb-2">
+        <h3 className="font-bold">My Courses And Lectures</h3>
+        <hr></hr>
+      </div>
+      <div className="row">
+        {coursesList.map((course) => {
+          return (
+            <div className="col-md-4">
+              <div className="position-relative course">
+                <img src={course.image} alt="" className="w-100"/>
+                <div className="course-content">
+                  <h3>{course.title}</h3>
+                  <hr></hr>
+                  <button className="primary-button w-100"><a href={course.link}> About of course/lecture </a></button>
+                </div>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

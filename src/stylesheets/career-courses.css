@@ -125,6 +125,53 @@ box-shadow:  -5px -5px 10px #c3d1c7,
     transition: all 0.5s;
 }
 
+.course{
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 50px;
+    animation: job-animation 10s linear infinite;
+ }
+
+.courses-list{
+    overflow: hidden;
+}
+
+.course img{
+    height: 220px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.course:hover > .course-content{
+    opacity: 1;
+    transform: scale(1.05);
+    cursor: pointer;
+    overflow: hidden;
+}
+.course:hover{
+    animation-play-state: paused;
+}
+
+.course-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.763);
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
 @media(max-width: 750px){
     .courses-intro-content{
         width: 100%;
