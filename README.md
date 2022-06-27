@@ -1,6 +1,7 @@
 #Personel Website Project developed by React.js
+#On live:
 ```
-on live:https://maftunhashimli.netlify.app/
+https://maftunhashimli.netlify.app/
 ```
 
 # Getting Started with Create React App
