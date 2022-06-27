@@ -76,6 +76,26 @@
     transition: all 0.5s;
 }
 
+@media(max-width: 750px){
+    .courses-intro-content{
+        width: 100%;
+        color: white;
+        border-left: 5px solid cyan;
+        padding: 20px;
+        margin: 20px;
+        border-left: 2px solid white;
+    }
+
+    .courses-intro-content h1{
+        font-size: 35px;
+        -webkit-text-stroke-width: 1px;
+    }
+    
+    .courses-intro-content p{
+       padding: 10px;
+    }
+}
+
 @keyframes job-animation {
     0%{
         transform: rotate(-5deg);
