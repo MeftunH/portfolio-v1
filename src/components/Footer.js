@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-import { HiMail } from "react-icons/hi";
-import { FiLinkedin } from "react-icons/fi";
+import { FaMailBulk } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -21,9 +21,23 @@ function Footer() {
                 Designed And Developed By
                 <hr />
                 <div className="d-flex justify-content-between px-2">
-                  <FaGithub className="footer-icons" />
-                  <HiMail className="footer-icons" />
-                  <FiLinkedin className="footer-icons" />
+                  <a href="https://github.com/MeftunH">
+                    <FaGithub 
+                    className="footer-icons" 
+                    color="white" />
+                  </a>
+                  <a href="mailto:maftunhashimli@gmail.com">
+                  <FaMailBulk
+                    className="footer-icons"
+                    color="white"
+                  />
+                  </a>
+                  <a href="https://www.linkedin.com/in/maftunhashimli/">
+                  <FaLinkedinIn
+                    className="footer-icons"
+                    color="white"
+                  />
+                  </a>
                 </div>
                 <hr />
                 <br />

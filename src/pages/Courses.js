@@ -15,7 +15,7 @@ function Courses() {
           <div>
             <p>Seeing is the best way to continue to improve yourself.</p>
           </div>
-          <button className="primary-button">Get Started</button>
+          <button className="primary-button font-bold"><a href="#courses-list"> Get Started</a></button>
         </div>
       </div>
       <div className="motivation-parent">
@@ -33,7 +33,7 @@ function Courses() {
         </div>
       </div>
 
-      <div className="container courses-list mb-2">
+      <div className="container courses-list mb-2" id='courses-list'>
         <h3 className="font-bold">My Courses And Lectures</h3>
         <hr></hr>
       </div>
