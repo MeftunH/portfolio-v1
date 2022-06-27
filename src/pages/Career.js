@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import {IoCodeSlash} from "react-icons/io5";
-import jobsData from './jobsData.js';
+import jobsData from '../data/jobsData';
 function Career() {
   return (
     <div>
