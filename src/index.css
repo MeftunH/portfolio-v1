@@ -20,6 +20,16 @@ code {
   padding: 0;
 }
 
+a{
+  text-decoration: none !important;
+  background-color: white;
+  height: 31px;
+  border-radius: 25px;
+  border: none;
+  width: 50%;
+  color: #001220;
+}
+
 .flex-with-center {
   display: flex;
   justify-content: center;
