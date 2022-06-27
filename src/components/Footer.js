@@ -1,7 +1,7 @@
 import React from "react";
-import {FaGithub} from 'react-icons/fa';
-import {HiMail} from 'react-icons/hi';
-import {FiLinkedin} from 'react-icons/fi';
+import { FaGithub } from "react-icons/fa";
+import { HiMail } from "react-icons/hi";
+import { FiLinkedin } from "react-icons/fi";
 
 function Footer() {
   return (
@@ -15,20 +15,22 @@ function Footer() {
           ></path>
         </svg>
         <div className="row justify-content-center footer-content">
-        <div className="col-md-6">
+          <div className="col-md-6">
             <div>
-                <p>
-                    Designed And Developed By
-                    <hr/>
-                    <div className="d-flex justify-content-between">
-                    <FaGithub className="footer-icons"/>
-                    <HiMail className="footer-icons"/>
-                    <FiLinkedin className="footer-icons"/>
-                    </div>
-                    <hr/>
-                </p>
+              <p>
+                Designed And Developed By
+                <hr />
+                <div className="d-flex justify-content-between px-2">
+                  <FaGithub className="footer-icons" />
+                  <HiMail className="footer-icons" />
+                  <FiLinkedin className="footer-icons" />
+                </div>
+                <hr />
+                <br />
+                <p>Maftun Hashimli</p>
+              </p>
             </div>
-        </div>
+          </div>
         </div>
       </div>
     </div>
