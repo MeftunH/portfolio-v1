@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { RiMenu3Fill,RiCloseFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 function Header() {
-  const [showHeader, setShowHeader] = useState(true);
+  const [showHeader, setShowHeader] = useState(false);
   const path = window.location.pathname;
 
   return (
