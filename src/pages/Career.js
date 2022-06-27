@@ -42,9 +42,20 @@ function Career() {
         <div className="row">
           {jobsData.map((job) => {
             return (
-              <div className="col-md-4">
+              <div className="col-md-6">
                <div className="position-relative job">
                 <img src={job.logo} alt="" />
+                <div className="job-content">
+                 <h3>
+                  {job.title}
+                 </h3>
+                 <hr></hr>
+                 <p>{job.company}</p>
+                 <p>{job.location}</p>
+                 <p>{job.date_range}</p>
+                 <p>{job.technologies}</p>
+                 <p>{job.about}</p>
+                </div>
                 </div>
               </div>
             );
