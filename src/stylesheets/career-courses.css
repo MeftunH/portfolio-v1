@@ -39,16 +39,45 @@
     align-items: center;
     justify-content: center;
 }
+
+.motivation:hover{
+    transform: scale(1.5);
+    background-color: #EBEFC0;
+    background: #EBFCF0;
+box-shadow:  -5px -5px 10px #c3d1c7,
+             5px 5px 10px #ffffff;
+             color: black;
+}
+
 .motivation{
  height: 300px;
  width: 300px;
- background-color: #001200;
+ background-color: #0c0012c6;
  border-radius: 50px;
+ transition: all 0.5s;
 }
+
+.motivation:hover > h1{
+ display: none;
+}
+
+.motivation:hover > .motivation-content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .motivation h1{
     color: white;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.motivation-content{
+    display: none;
 }
 
 .courses-intro-content h1{
