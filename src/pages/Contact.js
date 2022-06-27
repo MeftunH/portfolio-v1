@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useRef } from "react";
 import Header from "../components/Header";
+import emailjs from '@emailjs/browser'
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_80njg3u','template_t9sny2v',form.current,'n8nRqMclzmzBCkKU7')
+    .then(
+      (result)=>{
+      console.log(result.text);
+      console.log("message sent");
+    }, (error)=>{
+      console.log(error.text);
+    }
+    );
+  };
   return (
     <div>
     <Header/>
@@ -14,10 +30,12 @@ function Contact() {
           <div className="contact form m-2 p-5 n-box-interest-intro">
             <h3 className="font-bold">Contact Me</h3>
             <hr />
-            <input type="text" className="form-control" placeholder="Name"/>
-            <input type="text" className="form-control" placeholder="Name"/>
-            <textarea type="text" className="form-control" rows={3} defaultValue={""}/>
-            <button className="primary-button mt-3">Submit</button>
+            <form ref={form} onSubmit={sendEmail}>
+            <input type="text" name="name" className="form-control" placeholder="Name"/>
+            <input type="email" name="email" className="form-control" placeholder="Email"/>
+            <textarea type="text" name="message" className="form-control" rows={3} defaultValue={""}/>
+            <button type="submit" className="primary-button mt-3">Submit</button>
+            </form>
           </div>
         </div>
       </div>
