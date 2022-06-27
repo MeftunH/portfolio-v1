@@ -11,7 +11,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_80njg3u','template_t9sny2v',form.current,'n8nRqMclzmzBCkKU7')
+    emailjs.sendForm('service_80njg3u','template_t9sny2v',e.target,'n8nRqMclzmzBCkKU7')
     .then(
       (result)=>{
       toast.success("Your message has been sent successfully")
@@ -33,9 +33,9 @@ function Contact() {
             <h3 className="font-bold">Contact Me</h3>
             <hr />
             <form ref={form} onSubmit={sendEmail}>
-            <input type="text" name="name" className="form-control" placeholder="Name"/>
-            <input type="email" name="email" className="form-control" placeholder="Email"/>
-            <textarea type="text" name="message" className="form-control" rows={3} defaultValue={""}/>
+            <input type="text" name="name" className="form-control" placeholder="Name" required/>
+            <input type="email" name="email" className="form-control" placeholder="Email" required/>
+            <textarea type="text" name="message" className="form-control" rows={3} defaultValue={""} required/>
             <button type="submit" className="primary-button mt-3">Submit</button>
             </form>
           </div>
